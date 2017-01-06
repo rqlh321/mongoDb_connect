@@ -1,7 +1,6 @@
-package main.java;
 
-import main.java.model.Message;
-import main.java.model.Messages;
+import model.Message;
+import model.Messages;
 import org.mongodb.morphia.query.Query;
 
 /**

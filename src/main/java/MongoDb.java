@@ -1,5 +1,3 @@
-package main.java;
-
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import org.mongodb.morphia.Datastore;
@@ -11,7 +9,7 @@ public class MongoDb {
     public static Datastore getInstance() {
         if (datastore == null) {
             System.out.println("MongoDb connecting...");
-            MongoClientURI connectionString = new MongoClientURI("MONGO_DB_URI");
+            MongoClientURI connectionString = new MongoClientURI("mongodb://"+"MONGO_DB_URI");
             MongoClient mongoClient = new MongoClient(connectionString);
 
             Morphia morphia = new Morphia();
