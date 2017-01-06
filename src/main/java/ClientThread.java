@@ -1,6 +1,8 @@
+package main.java;
+
 import com.google.gson.Gson;
-import model.GeneralMessage;
-import model.Message;
+import main.java.model.GeneralMessage;
+import main.java.model.Message;
 
 import java.io.BufferedReader;
 import java.io.IOException;

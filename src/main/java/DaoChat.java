@@ -1,5 +1,7 @@
-import model.Message;
-import model.Messages;
+package main.java;
+
+import main.java.model.Message;
+import main.java.model.Messages;
 import org.mongodb.morphia.query.Query;
 
 /**
@@ -8,7 +10,6 @@ import org.mongodb.morphia.query.Query;
 public class DaoChat {
 
     public static void postMessage(Message message) {
-
         MongoDb.getInstance().save(message);
     }
 

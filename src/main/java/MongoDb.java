@@ -1,3 +1,5 @@
+package main.java;
+
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import org.mongodb.morphia.Datastore;
